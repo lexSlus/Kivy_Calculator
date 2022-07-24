@@ -1,0 +1,11 @@
+Simple Calculator written with Kivy. Buttons created with GridLayout (gl). Then took gl into BoxLayout.
+Calculating realized by python function eval().
+
+class CalculatorApp(App):
+            build()
+            calc_result()
+            add_operation()
+            add_number()
+            update_label()
+
+
