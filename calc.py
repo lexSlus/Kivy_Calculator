@@ -35,6 +35,7 @@ class CalculatorApp(App):
 
     def result_clear(self, instance):
         self.lbl.text = '0'
+        self.formula = '0'
 
     def build(self):
         self.formula = '0'
